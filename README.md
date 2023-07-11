@@ -13,7 +13,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -50,13 +49,6 @@
 
 
 - **[Awesome Books]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-
-- [Live Demo Link]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,6 +103,10 @@ npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standa
 
 - GitHub: [@githubhandle](https://github.com/newtonah0)
 
+👤 **Bianca**
+
+- GitHub: [@githubhandle](https://github.com/BiancaMe)
+
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Made Mobile project]**
@@ -119,11 +115,6 @@ npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standa
 
 
 ## 🤝 Contributing <a name="Microverse"></a>
-
-👤 **Bianca**
-
-- GitHub: [@githubhandle](https://github.com/BiancaMe)
-
 
 Contributions, issues, and feature requests are welcome!
 
