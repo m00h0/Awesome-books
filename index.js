@@ -22,17 +22,17 @@ class listBooks {
   }
 
   static addBookDOM(book) {
-    const newBook = document.createElement('div');
+    const newBook = document.createElement('tr');
     newBook.setAttribute('class', 'book');
     document.querySelector('#list-books').append(newBook);
 
-    const title = document.createElement('h3');
+    const title = document.createElement('td');
     title.setAttribute('class', 'title');
     const txtTitle = document.createTextNode(book.title);
     title.appendChild(txtTitle);
     newBook.appendChild(title);
 
-    const author = document.createElement('h4');
+    const author = document.createElement('td');
     author.setAttribute('class', 'author');
     const txtAuthor = document.createTextNode(book.author);
     author.appendChild(txtAuthor);
@@ -43,10 +43,6 @@ class listBooks {
     const txtName = document.createTextNode('Remove');
     btn.appendChild(txtName);
     newBook.appendChild(btn);
-
-    const hr = document.createElement('hr');
-    hr.setAttribute('class', 'hr1');
-    newBook.appendChild(hr);
   }
 
   static removeBook(target) {
