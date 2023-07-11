@@ -28,7 +28,7 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [Awesome Bookso] <a name="Awesome Books"></a>
+# 📖 [Awesome Books] <a name="Awesome Books"></a>
 
 
 

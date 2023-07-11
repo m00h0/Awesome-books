@@ -26,13 +26,19 @@ class listBooks {
     newBook.setAttribute('class', 'book');
     document.querySelector('#list-books').append(newBook);
 
-    const title = document.createElement('td');
+    const title = document.createElement('p');
     title.setAttribute('class', 'title');
     const txtTitle = document.createTextNode(book.title);
     title.appendChild(txtTitle);
     newBook.appendChild(title);
 
-    const author = document.createElement('td');
+    const by = document.createElement('p');
+    title.setAttribute('class', 'by');
+    const txtby = document.createTextNode('by');
+    by.appendChild(txtby);
+    newBook.appendChild(by);
+
+    const author = document.createElement('p');
     author.setAttribute('class', 'author');
     const txtAuthor = document.createTextNode(book.author);
     author.appendChild(txtAuthor);

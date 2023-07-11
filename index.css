@@ -9,7 +9,7 @@ body{
 #form {
   display: flex;
   flex-direction: column;
-  gap: 12px
+  gap: 12px;
   align-items: center;
   text-align: center;
   justify-content: center;
@@ -31,8 +31,22 @@ input {
     border:2px solid black; 
 }
 
+.book {
+    display: flex;
+    text-align:center ;
+    align-items: center;
+    gap: 12px;
+
+}
+
 .btn-remove {
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    right: 20px;
+    height: 36px;
+    margin-left: 30%;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
     
 }
 
