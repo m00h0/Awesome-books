@@ -45,7 +45,7 @@ class listBooks {
     newBook.appendChild(btn);
 
     const hr = document.createElement('hr');
-    hr.setAttribute('class','hr1');
+    hr.setAttribute('class', 'hr1');
     newBook.appendChild(hr);
   }
 
