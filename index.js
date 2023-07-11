@@ -43,6 +43,10 @@ class listBooks {
     const txtName = document.createTextNode('Remove');
     btn.appendChild(txtName);
     newBook.appendChild(btn);
+
+    const hr = document.createElement('hr');
+    hr.setAttribute('class','hr1');
+    newBook.appendChild(hr);
   }
 
   static removeBook(target) {
