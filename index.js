@@ -54,7 +54,7 @@ class listBooks {
     const books = listBooks.getBooks();
     const title = target.previousElementSibling.previousElementSibling.textContent;
     const author = target.previousElementSibling.previousElementSibling.textContent;
-    const res = books.filter((books) => books.title !== title || books.author !== author);
+    const res = books.filter((books) => books.title !== title && books.author !== author);
     localStorage.setItem('books', JSON.stringify(res));
     // Remove DOM
     target.parentElement.remove();
