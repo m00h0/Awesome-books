@@ -1,10 +1,53 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Comic Neue', sans-serif;
+}
+
 #form {
   display: flex;
   flex-direction: column;
-  width: 324px;
+  gap: 12px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+input {
+  position: relative;
+  left: 25%;
+  width: 50%;
+}
+
+#add {
+  position: relative;
+  left: 25%;
+  width: 51%;
+}
+
+#list-books {
+  border: 2px solid black;
+}
+
+.book {
+  display: flex;
+  text-align: center;
+  align-items: center;
   gap: 12px;
 }
 
-.hr1 {
-  margin-bottom: 5%;
+.btn-remove {
+  position: absolute;
+  right: 20px;
+  height: 36px;
+  margin-left: 30%;
+  border: 2px solid black;
+  border-radius: 4px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.6);
+}
+
+tr:nth-child(even) {
+  background-color: #7b7b7b27;
 }
