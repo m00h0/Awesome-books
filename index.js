@@ -38,9 +38,22 @@ class listBooks {
     author.appendChild(txtAuthor);
     newBook.appendChild(author);
 
-    const btnAdd = document.createElement('button');
-    btnAdd.setAttribute('class', 'btn-remove');
-    newBook.appendChild(btnAdd);
+    const btn = document.createElement('button');
+    btn.setAttribute('class', 'btn-remove');
+    const txtName = document.createTextNode('Remove');
+    btn.appendChild(txtName);
+    newBook.appendChild(btn);
+  }
+
+  static removeBook(target) {
+    // Remove LocalStorage
+    const books = listBooks.getBooks();
+    const title = target.previousElementSibling.previousElementSibling.textContent;
+    const author = target.previousElementSibling.previousElementSibling.textContent;
+    const res = books.filter((books) => books.title !== title || books.author !== author);
+    localStorage.setItem('books', JSON.stringify(res));
+    // Remove DOM
+    target.parentElement.remove();
   }
 }
 
@@ -50,6 +63,10 @@ document.querySelector('#form').addEventListener('submit', (e) => {
   const newAuthor = document.querySelector('#author').value;
   const book = new Book(newTitle, newAuthor);
   listBooks.addBook(book);
+});
+
+document.querySelector('#list-books').addEventListener('click', (e) => {
+  listBooks.removeBook(e.target);
 });
 
 window.addEventListener('load', (e) => {
