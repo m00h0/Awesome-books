@@ -4,7 +4,61 @@ body {
   justify-content: center;
   text-align: center;
   font-family: 'Comic Neue', sans-serif;
+  background-color: rgb(244, 242, 242);
 }
+/* ------- NAVBAR -------- */
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+  align-items: center;
+}
+
+#logo {
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+}
+
+#contain-nav-item {
+  display: flex;
+  gap: 15px;
+  margin-right: 20px;
+}
+
+.nav-item {
+  list-style: none;
+}
+
+#add-new {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  padding: 0 6px 0 6px;
+}
+
+.nav-item-a {
+  color: black;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.nav-item-a:hover {
+  color: rgb(87, 87, 168);
+}
+
+.nav-item-a:active {
+  color: rgb(145, 145, 222);
+}
+
+
+
+
+
+
+
+
+
 
 #form {
   display: flex;
