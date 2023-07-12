@@ -115,6 +115,8 @@ input {
 
 #list-books {
   border: 2px solid black;
+  list-style: none;
+  
 }
 
 .book {
