@@ -1,4 +1,5 @@
 /* eslint-disable max-classes-per-file */
+/* eslint-disable max-len */
 class Book {
   constructor(title, author) {
     this.title = title;
@@ -9,7 +10,7 @@ class Book {
 class listBooks {
   static getBooks() {
     let books = [];
-    if (localStorage.getItem('books') != null) { books = JSON.parse(localStorage.getItem('books')); }
+    if (localStorage.getItem('books') != null) { books = JSON.parse(localStorage.getItem('books'));}
     return books;
   }
 
@@ -26,19 +27,19 @@ class listBooks {
     newBook.setAttribute('class', 'book');
     document.querySelector('#list-books').append(newBook);
 
-    const title = document.createElement('p');
+    const title = document.createElement('td');
     title.setAttribute('class', 'title');
     const txtTitle = document.createTextNode(book.title);
     title.appendChild(txtTitle);
     newBook.appendChild(title);
 
-    const by = document.createElement('p');
-    title.setAttribute('class', 'by');
+    const by = document.createElement('td');
+    by.setAttribute('class', 'by');
     const txtby = document.createTextNode('by');
     by.appendChild(txtby);
     newBook.appendChild(by);
 
-    const author = document.createElement('p');
+    const author = document.createElement('td');
     author.setAttribute('class', 'author');
     const txtAuthor = document.createTextNode(book.author);
     author.appendChild(txtAuthor);
@@ -54,7 +55,7 @@ class listBooks {
   static removeBook(target) {
     // Remove LocalStorage
     const books = listBooks.getBooks();
-    const title = target.previousElementSibling.previousElementSibling.textContent;
+    const title = target.previousElementSibling.previousElementSibling.previousElementSibling.textContent;
     const author = target.previousElementSibling.previousElementSibling.textContent;
     const res = books.filter((books) => books.title !== title && books.author !== author);
     localStorage.setItem('books', JSON.stringify(res));

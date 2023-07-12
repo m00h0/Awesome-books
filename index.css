@@ -31,7 +31,7 @@ body {
   list-style: none;
 }
 
-#add-new {
+#nav-add-new {
   border-left: 2px solid black;
   border-right: 2px solid black;
   padding: 0 6px 0 6px;
@@ -50,6 +50,8 @@ body {
 .nav-item-a:active {
   color: rgb(145, 145, 222);
 }
+
+/* -------Section Contac ----------*/
 
 .contact {
   display: flex;
@@ -73,6 +75,8 @@ body {
   font-weight: 600;
 }
 
+/* -----Footer ------ */
+
 .footer {
   border: 2px solid black;
   text-align: left;
@@ -87,11 +91,7 @@ body {
   margin-left: 2%;
 }
 
-
-
-
-
-
+/* ------ Add New -------- */
 
 #form {
   display: flex;
@@ -105,18 +105,32 @@ body {
 input {
   position: relative;
   width: 50%;
+  border: 2px solid black;
+  border-radius: 2px;
+  height: 30px;
+  font-family: 'Comic Neue', sans-serif !important;
 }
 
 #add {
   position: relative;
   width: 8%;
-  left: 21.5%
+  left: 21.5%;
+  border: 2px solid black;
+  font-family: 'Comic Neue', sans-serif;
+  font-weight: 600;
+  border-radius: 2px;
+  height: 30px;
+}
+
+/* ----- List -------- */
+
+#list{
+  width: 100%;
 }
 
 #list-books {
   border: 2px solid black;
-  list-style: none;
-  
+  width: 100%;
 }
 
 .book {
@@ -124,18 +138,31 @@ input {
   text-align: center;
   align-items: center;
   gap: 12px;
+  width: 100%;
+  text-align: left;
+  font-family: 'Comic Neue', sans-serif;
+  font-weight: 600;
+}
+
+td {
+    width:15%;
+}
+
+.by {
+  font-size: 14px;
 }
 
 .btn-remove {
-  position: absolute;
-  right: 20px;
   height: 36px;
-  margin-left: 30%;
+  margin-left: 50%;
   border: 2px solid black;
   border-radius: 4px;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.6);
+  font-family: 'Comic Neue', sans-serif;
+  font-weight: 600;
 }
 
 tr:nth-child(even) {
   background-color: #7b7b7b27;
 }
+
