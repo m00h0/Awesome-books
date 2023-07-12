@@ -10,7 +10,7 @@ class Book {
 class listBooks {
   static getBooks() {
     let books = [];
-    if (localStorage.getItem('books') != null) { books = JSON.parse(localStorage.getItem('books'));}
+    if (localStorage.getItem('books') != null) { books = JSON.parse(localStorage.getItem('books')); }
     return books;
   }
 
@@ -80,4 +80,41 @@ window.addEventListener('load', (e) => {
   e.preventDefault();
   const list = listBooks.getBooks();
   list.forEach((book) => listBooks.addBookDOM(book));
+});
+
+// Navigation
+document.querySelector('#nav-add-new-a').addEventListener('click', (e) => {
+  e.preventDefault();
+  const addNew = document.querySelector('#add-new');
+  addNew.classList.remove('hiden');
+
+  const list = document.querySelector('#list');
+  list.classList.add('hiden');
+
+  const contact = document.querySelector('#contact');
+  contact.classList.add('hiden');
+});
+
+document.querySelector('#nav-list-a').addEventListener('click', (e) => {
+  e.preventDefault();
+  const list = document.querySelector('#list');
+  list.classList.remove('hiden');
+
+  const addNew = document.querySelector('#add-new');
+  addNew.classList.add('hiden');
+
+  const contact = document.querySelector('#contact');
+  contact.classList.add('hiden');
+});
+
+document.querySelector('#nav-contact-a').addEventListener(('click'), (e) => {
+  e.preventDefault();
+  const contact = document.querySelector('#contact');
+  contact.classList.remove('hiden');
+
+  const addNew = document.querySelector('#add-new');
+  addNew.classList.add('hiden');
+
+  const list = document.querySelector('#list');
+  list.classList.add('hiden');
 });
