@@ -51,8 +51,41 @@ body {
   color: rgb(145, 145, 222);
 }
 
+.contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 
+.contact-title {
+ font-weight: 600;
+}
 
+.contact-p {
+  text-align: left;
+  margin-left: 6%;
+  font-weight: 600;
+}
+
+.contact-a {
+  text-align: left;
+  margin-left: 6%;
+  font-weight: 600;
+}
+
+.footer {
+  border: 2px solid black;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  height: 54px;
+  border-radius: 4px;
+}
+
+.footer-h {
+  margin-left: 2%;
+}
 
 
 
