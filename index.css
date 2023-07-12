@@ -17,14 +17,13 @@ body {
 
 input {
   position: relative;
-  left: 25%;
   width: 50%;
 }
 
 #add {
   position: relative;
-  left: 25%;
-  width: 51%;
+  width: 8%;
+  left: 21.5%
 }
 
 #list-books {
