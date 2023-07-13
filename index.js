@@ -70,6 +70,7 @@ document.querySelector('#form').addEventListener('submit', (e) => {
   const newAuthor = document.querySelector('#author').value;
   const book = new Book(newTitle, newAuthor);
   listBooks.addBook(book);
+  document.getElementById('form').reset();
 });
 
 document.querySelector('#list-books').addEventListener('click', (e) => {
