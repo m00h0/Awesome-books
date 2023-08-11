@@ -96,7 +96,7 @@ npx eslint .
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- [Live Demo Link](https://newtonah0.github.io/Awesome-books/dist/)
+- [Live Demo Link](https://newtonah0.github.io/Awesome-books/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
