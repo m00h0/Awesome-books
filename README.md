@@ -94,8 +94,11 @@ npx stylelint "**/*.{css,scss}"
 npx eslint .
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+- [Live Demo Link](https://https://newtonah0.github.io/Awesome-books/dist/)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="Ahmed"></a>
 
