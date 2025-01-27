@@ -94,7 +94,10 @@ npx stylelint "**/*.{css,scss}"
 npx eslint .
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Deployment <a name="deployment"></a>
+
+The project is deployed and accessible at the following link:
 
 - [Live Demo Link](https://m00h0.github.io/Awesome-books/)
 
