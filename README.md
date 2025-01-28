@@ -108,7 +108,7 @@ The project is deployed and accessible at the following link:
 
 👤 **Ahmed**
 
-- GitHub: [@githubhandle](https://github.com/newtonah0)
+- GitHub: [@m00h0](https://github.com/m00h0)
 
 👤 **Bianca**
 
