@@ -50,7 +50,7 @@ The project "Awesome Books" is a page app for managing books from a website. It 
 - JavaScript
 
 
-### Key Features <a name="Awesome Books"></a>
+### Key Features <a name="key-features"></a>
 
 
 - **[Awesome Books]**
