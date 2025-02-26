@@ -58,7 +58,7 @@ The project "Awesome Books" is a page app for managing books from a website. It 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 💻 Getting Started <a name="start-project"></a>
+## 💻 Getting Started <a name="getting-started"></a>
 
 ### Prerequisites
 
