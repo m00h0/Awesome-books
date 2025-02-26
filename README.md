@@ -43,6 +43,12 @@ The project "Awesome Books" is a page app for managing books from a website. It 
   </ul>
 </details>
 
+### Tech Stack <a name="tech-stack"></a>
+
+- HTML
+- CSS
+- JavaScript
+
 
 ### Key Features <a name="Awesome Books"></a>
 
