@@ -27,7 +27,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [Awesome Books] <a name="Awesome Books"></a>
+# 📖 [Awesome Books] <a name="about-project"></a>
 
 
 
